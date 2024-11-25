@@ -1,0 +1,69 @@
+/* Application de la police Roboto */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+li {
+    list-style: none;
+}
+
+/* Style de la barre de navigation */
+.navigation-bar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #f0a500;
+}
+
+/* Style des sections */
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.home-section {
+    background-color: #f9f9f9;
+}
+
+.about-section {
+    background-color: #ececec;
+}
+
+.services-section {
+    background-color: #ddd;
+}
+
+.contact-section {
+    background-color: #ccc;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
